@@ -8,7 +8,7 @@ void Battery::mysetter(string name, int part_num, string type, double weight, do
 {
 }
 
-void Battery::setBattery(double Energy, double power)
+void Battery::setBattery(double Energy, double power)//n
 {
 	energy = Energy; maxPower = power;
 }
